@@ -10,7 +10,7 @@ I used a public dataset (i.e., data from six equines and activities) that are av
 https://doi.org/10.4121/uuid:2e08745c-4178-4183-8551-f248c992cb14. The reference is (Kamminga, J. W., Janßen, L. M., Meratnia, N., & Havinga, P. J. (2019). Horsing Around—A Dataset Comprising Horse Movement. Data, 4(4), 131.).
 
 ##Data used:
-The data in Equine_AR contained six files, and each file includes all data from six equines and these data are divided into training, validation, and testing data circularly according to six-fold cross-validation.
+"MyTensor_1/2/3/4/5/6.pt" files contain the standardized data that would be inputs in our model. Each "_.pt" file includes all data from six equines and these data are divided into training, validation, and testing data circularly according to six-fold cross-validation.
 
 ### 2. train the model
 Just choose "canet" that I created. And all of the training, validation, and testing processes can be operated in train.py.
