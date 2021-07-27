@@ -15,7 +15,3 @@ The data in Equine_AR contained six files, and each file includes all data from 
 ### 2. train the model
 Just choose "canet" that I created. And all of the training, validation, and testing processes can be operated in train.py.
 The train.py can achieve the training of CMI-Net and CMI-Net + CB focal loss. 
-
-
-### 3. results
-The detailed results are saved in checkpoint fold.
