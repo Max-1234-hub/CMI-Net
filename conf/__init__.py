@@ -1,6 +1,6 @@
 """ dynamically load settings
 
-author baiyu
+author axiumao
 """
 import conf.global_settings as settings
 
