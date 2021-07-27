@@ -7,7 +7,8 @@ This is my experiment eviroument
 
 ### 1. dataset
 I used a public dataset (i.e., data from six equines and activities) that are avaliable at
-https://doi.org/10.4121/uuid:2e08745c-4178-4183-8551-f248c992cb14. The reference is (Kamminga, J. W., Janßen, L. M., Meratnia, N., & Havinga, P. J. (2019). Horsing Around—A Dataset Comprising Horse Movement. Data, 4(4), 131.).
+https://doi.org/10.4121/uuid:2e08745c-4178-4183-8551-f248c992cb14. 
+The reference is (Kamminga, J. W., Janßen, L. M., Meratnia, N., & Havinga, P. J. (2019). Horsing Around—A Dataset Comprising Horse Movement. Data, 4(4), 131.).
 
 ##Data used:
 "MyTensor_1/2/3/4/5/6.pt" files contain the standardized data that would be inputs in our model. Each "_.pt" file includes all data from six equines and these data are divided into training, validation, and testing data circularly according to six-fold cross-validation.
