@@ -8,7 +8,7 @@ This is my experiment eviroument
 - python3.7
 - pytorch+cuda10.2
 
-
+## Details
 ### 1. dataset
 I used a public dataset (i.e., data from six equines and activities) that are avaliable at
 https://doi.org/10.4121/uuid:2e08745c-4178-4183-8551-f248c992cb14. 
