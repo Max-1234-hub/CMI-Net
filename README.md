@@ -1,7 +1,6 @@
 ## CMI-Net
 
-This repository is an official PyTorch implementation of the paper "Cross-Modality Interaction Network for Equine Activity Recognition Using Imbalanced Multi-Modal Data", Sensors, 2021.
-link:https://www.mdpi.com/1424-8220/21/17/5818.
+This repository is an official PyTorch implementation of the paper "Cross-Modality Interaction Network for Equine Activity Recognition Using Imbalanced Multi-Modal Data", Sensors, 2021.(https://www.mdpi.com/1424-8220/21/17/5818)
 
 ## Requirements
 
