@@ -210,7 +210,7 @@ if __name__ == '__main__':
     #create checkpoint folder to save model
     if not os.path.exists(checkpoint_path):
         os.makedirs(checkpoint_path)
-    checkpoint_path_pth = os.path.join(checkpoint_path, '{net}-{epoch}-{type}.pth')
+    checkpoint_path_pth = os.path.join(checkpoint_path, '{net}-{type}.pth')
 
     best_acc = 0.0
     Train_Loss = []
