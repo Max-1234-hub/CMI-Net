@@ -218,6 +218,8 @@ if __name__ == '__main__':
     Valid_Loss = []
     Valid_Accuracy = []
     f1_s = []
+    best_epoch = 1
+    best_weights_path = checkpoint_path_pth.format(net=args.net, type='best')
     # validation_loss = 0
     for epoch in range(1, args.epoch + 1):
         train_scheduler.step(epoch)
@@ -227,10 +229,10 @@ if __name__ == '__main__':
 
         #start to save best performance model (according to the accuracy on validation dataset) after learning rate decay to 0.01
         if epoch > settings.MILESTONES[0] and best_acc < acc:
-            best_weights_path = checkpoint_path_pth.format(net=args.net, epoch=epoch, type='best')
-            print('saving weights file to {}'.format(best_weights_path))
             best_acc = acc
-    torch.save(net.state_dict(), best_weights_path) #只保存神经网络的训练模型参数
+            best_epoch = epoch
+            torch.save(net.state_dict(), best_weights_path)
+    print('best epoch is {}'.format(best_epoch))
             
     #plot accuracy varying over time
     font_1 = {'weight' : 'normal', 'size'   : 20}
