@@ -4,7 +4,7 @@ This repository is an official PyTorch implementation of the paper "Cross-Modali
 
 ## Requirements
 
-This is my experiment eviroument
+This is my experiment environment
 - python3.7
 - pytorch+cuda10.2
 
